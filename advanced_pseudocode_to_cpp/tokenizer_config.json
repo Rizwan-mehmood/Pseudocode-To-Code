@@ -824,6 +824,30 @@
       "rstrip": false,
       "single_word": false,
       "special": true
+    },
+    "32100": {
+      "content": "<FUNCTION>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "32101": {
+      "content": "<LOOP>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
+    },
+    "32102": {
+      "content": "<CONDITION>",
+      "lstrip": false,
+      "normalized": false,
+      "rstrip": false,
+      "single_word": false,
+      "special": true
     }
   },
   "additional_special_tokens": [
@@ -926,14 +950,17 @@
     "<extra_id_96>",
     "<extra_id_97>",
     "<extra_id_98>",
-    "<extra_id_99>"
+    "<extra_id_99>",
+    "<FUNCTION>",
+    "<LOOP>",
+    "<CONDITION>"
   ],
-  "clean_up_tokenization_spaces": true,
+  "clean_up_tokenization_spaces": false,
   "eos_token": "</s>",
   "extra_ids": 100,
   "extra_special_tokens": {},
   "legacy": true,
-  "model_max_length": 512,
+  "model_max_length": 1000000000000000019884624838656,
   "pad_token": "<pad>",
   "sp_model_kwargs": {},
   "tokenizer_class": "T5Tokenizer",
